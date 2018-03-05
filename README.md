@@ -9,7 +9,7 @@ HabitBreaker uses your webcam and a convolutional neural network to detect and s
 - Steps to Recreate
 
 ## How was it made
-HabitBreaker is made using transfer learning. Transfer learning utilizes a fully trained model and restrains its existing weights to classify a new set of classes. In this case we will take the popular Inception-v3 model and retraining the final layer from scratch to classify our bad habit.
+HabitBreaker is made using transfer learning. Transfer learning utilizes a fully trained model and retrains its existing weights to classify a new set of classes. In this case we will take the popular Inception-v3 model and retraining the final layer from scratch to classify our bad habit.
 
 ## Dependencies
 - Tensorflow
