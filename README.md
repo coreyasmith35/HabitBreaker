@@ -2,7 +2,7 @@
 
 HabitBreaker uses your webcam and a convolutional neural network to detect and stop you from preforming your bad habits.
 
-![demo](https://media.giphy.com/media/x4bphtYdfl26Q0MHER/giphy.gif)
+![demo](https://media.giphy.com/media/7ThuRA3bPmBfrRynXn/giphy.gif)
 
 ## Table of Contents
 
