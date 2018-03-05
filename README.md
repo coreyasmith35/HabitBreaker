@@ -2,8 +2,8 @@
 
 HabitBreaker uses your webcam and a convolutional neural network to detect and stop you from preforming your bad habits.
 
+[Demo Gif](https://media.giphy.com/media/7ThuRA3bPmBfrRynXn/giphy.gif)
 
-<img src="https://media.giphy.com/media/x4bphtYdfl26Q0MHER/giphy.gif" width="480" height="270" />
 
 ## Table of Contents
 
@@ -64,3 +64,5 @@ python habitBreaker.py --fps -1 --notify nailbiting
 ```
 
 Congratulations you are one step closer to breaking your bad habit!
+
+**For more information visit my blog post:** [How I broke a bad habit using deep learning](https://www.coreyalexandersmith.com/projects/habit-breaker/)
