@@ -19,7 +19,7 @@ HabitBreaker is made using transfer learning. Transfer learning utilizes a fully
 
 ## Steps to Recreate:
 
-1. Capture normal activity. Remember variety greatly our weight quantity!
+1. Capture normal activity. Remember variety greatly out weights quantity!
 ```
 python captureData.py --split train --classification negative --fps 10
 ```
