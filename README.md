@@ -36,7 +36,7 @@ python tensorflow/examples/image_retraining/retrain.py \
     --output_graph=data/retrained_graph.pb  \
     --output_labels=data/retrained_labels.txt \
     --image_dir data/train \
-    --how_many_training_steps 300 \
+    --how_many_training_steps 300
 ```
 
 4. Capture one image just to check the model.
