@@ -23,17 +23,23 @@ HabitBreaker is made using transfer learning. Transfer learning utilizes a fully
 
 ## Steps to Recreate:
 
-1. Capture normal activity. Remember variety greatly out weights quantity!
+1. Download the project file.
 ```
-python captureData.py --split train --classification negative --fps 10
+git clone https://github.com/coreyasmith35/HabitBreaker
+cd HabitBreaker
 ```
 
-2. Capture you doing your bad habit.
+2. Capture normal activity. Remember variety greatly out weights quantity!
+```
+python captureData.py --split train --classification notnailbiting --fps 10
+```
+
+3. Capture you doing your bad habit.
 ```
 python captureData.py --split train --classification nailbiting --fps 10
 ```
 
-3. Train the model.
+4. Train the model.
 ```
 python tensorflow/examples/image_retraining/retrain.py \
     --bottleneck_dir=data/train/bottlenecks  \
@@ -43,22 +49,22 @@ python tensorflow/examples/image_retraining/retrain.py \
     --how_many_training_steps 300
 ```
 
-4. Capture one image just to check the model.
+5. Capture one image just to check the model.
 ```
 python captureData.py --one_img true
 ```
 
-5. Make a prediction on the single image.
+6. Make a prediction on the single image.
 ```
 python singlePred.py --img data/single_imgs/img.jpg
 ```
 
-6. Now run the model in real time.
+7. Now run the model in real time.
 ```
 python habitBreaker.py --fps -1 --notify nailbiting
 ```
 
-7. Enable windows notifications by editing habbitBreaker.py
+8. Enable windows notifications by editing line 18 in habbitBreaker.py
 ```python
     # Set to True if you want to receive notification via windows notification center
     windows_notify = True
